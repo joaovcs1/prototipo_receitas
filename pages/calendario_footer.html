@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenda da semana</title>
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <script src="../jss/global.js" defer></script>
+    <script src="../jss/menu_lateral.js" defer></script>
+</head>
+<body class="pagina_app">
+    <header>
+        <a href="#" class="abrir-menu-lateral">
+            <img src="../img/menu.png" alt="Abrir menu">
+        </a>
+        <h1 class="cabecalho_mes">
+            <a href="calendario_footer.html">Março</a>
+        </h1>
+    </header>
+    <main>
+        <ul class="lista_dias_mes">
+            <li data-dia="2">Segunda-feira <p class="num_dia">2</p></li>
+            <li data-dia="3">Terça-feira <p class="num_dia">3</p></li>
+            <li data-dia="4" class="hoje">Hoje <p class="num_dia">4</p></li>
+            <li data-dia="5">Quinta-feira <p class="num_dia">5</p></li>
+            <li data-dia="6">Sexta-feira <p class="num_dia">6</p></li>
+            <li data-dia="7">Sábado <p class="num_dia">7</p></li>
+            <li data-dia="8">Domingo <p class="num_dia">8</p></li>
+        </ul>
+        <div id="painel-agenda" style="margin: 1.25rem 1rem 5rem; text-align: left; padding: 1rem; border: 1px solid var(--cor-desabilitado); border-radius: var(--raio-borda); background: var(--cor-fundo);">
+            <h3 id="titulo-agenda-dia" style="font-weight: 700; font-size: 0.95rem; margin-bottom: 0.75rem; color: var(--cor-texto);">Programação do dia</h3>
+            <div id="lista-receitas-agenda"></div>
+        </div>
+    </main>
+    <footer>
+        <ul>
+            <li><a href="index.html"><img src="../img/casa.png" alt="Início"></a></li>
+            <li><a href="#"><img src="../img/pratos.png" alt="Receitas"></a></li>
+            <li><a href="aba_de_pesquisa.html"><img src="../img/lupa.png" alt="Pesquisar"></a></li>
+            <li><a href="calendario_footer.html" class="ativo" aria-current="page"><img src="../img/agenda.png" alt="Agenda"></a></li>
+            <li><a href="#"><img src="../img/pessoas.png" alt="Perfil"></a></li>
+        </ul>
+    </footer>
+    <script src="../jss/calendario_footer.js" defer></script>
+</body>
+</html>

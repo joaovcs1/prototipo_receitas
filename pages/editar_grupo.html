@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editar grupo</title>
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <script src="../jss/global.js" defer></script>
+    <script src="../jss/barra_pessoas.js" defer></script>
+    <script src="../jss/editar_grupo.js" defer></script>
+</head>
+<body class="pagina_app" data-aguardar-confirmar="sim">
+    <header class="header_simples">
+        <a class="seta_voltar" href="receita_exemplo.html"><img src="../img/seta.png" alt="Voltar"></a>
+        <h1>Editar grupo</h1>
+    </header>
+    <main class="pagina_editar">
+        <div class="area_porcoes area_porcoes_compacta">
+            <p class="pergunta">Para quantas pessoas?</p>
+
+            <div class="barra_slider" id="barra-pessoas">
+                <div class="barra_slider_trilha"></div>
+                <div class="barra_slider_preenchida" id="barra-preenchida"></div>
+                <div class="barra_slider_bola" id="bola-pessoas"></div>
+            </div>
+
+            <p class="valor_pessoas" id="texto-pessoas">6 pessoas</p>
+
+            <a class="btn_confirmar" href="o_que_tem_receita.html" id="confirmar-grupo">
+                <img src="../img/certo.png" alt="">
+                Confirmar
+            </a>
+        </div>
+
+        <ul class="lista_editar_grupo">
+            <li id="texto-quantidade-grupo">Quantidade atual: 6 pessoas</li>
+        </ul>
+    </main>
+    <footer>
+        <ul>
+            <li><a href="index.html"><img src="../img/casa.png" alt="Início"></a></li>
+            <li><a href="#"><img src="../img/pratos.png" alt="Receitas"></a></li>
+            <li><a href="aba_de_pesquisa.html"><img src="../img/lupa.png" alt="Pesquisar"></a></li>
+            <li><a href="calendario_footer.html"><img src="../img/agenda.png" alt="Agenda"></a></li>
+            <li><a href="#"><img src="../img/pessoas.png" alt="Perfil"></a></li>
+        </ul>
+    </footer>
+</body>
+</html>

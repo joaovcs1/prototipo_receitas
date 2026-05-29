@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adicionar à despensa</title>
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <script src="../jss/global.js" defer></script>
+    <script src="../jss/dispensa.js" defer></script>
+</head>
+<body class="pagina_app">
+    <header class="header_pesquisa">
+        <a class="seta_voltar" href="dispensa_vazia.html"><img src="../img/seta.png" alt="Voltar"></a>
+        <p class="barra_pesquisa">
+            <img src="../img/lupa.png" alt="">
+            <input
+                type="search"
+                id="campo-pesquisa-ingrediente"
+                placeholder="Pesquisar ingredientes"
+                aria-label="Pesquisar ingredientes"
+                autocomplete="off"
+            >
+        </p>
+        <a class="icone_canto" href="#">
+            <img src="../img/camera.png" alt="">
+        </a>
+    </header>
+
+    <main>
+        <p class="aviso_dispensa" id="aviso-pesquisa" hidden></p>
+        <ul class="grade_ingredientes" id="resultados-ingredientes"></ul>
+    </main>
+</body>
+</html>
